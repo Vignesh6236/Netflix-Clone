@@ -1,0 +1,107 @@
+@font-face {
+    font-family: NetflixL;
+    src: url("Assets/Netflix Fonts/Netflix Sans Light.otf");
+  }
+@font-face {
+    font-family: NetflixM;
+    src: url("Assets/Netflix Fonts/Netflix Sans Medium.otf");
+  }
+@font-face {
+    font-family: NetflixB;
+    src: url("Assets/Netflix Fonts/Netflix Sans Bold.otf");
+  }
+:root{
+    --textL: NetflixL;
+    --textM: NetflixM;
+    --textB: NetflixB;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    
+    max-width: 75vw;
+    justify-content: space-between;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    margin: auto;
+    
+   
+}
+.logo{
+    
+    
+    height: 40px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.button1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid rgb(81, 81, 81);
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    height: 34px;
+    width: 130px;
+}
+.button2{
+    color: white;
+    background-color: red;
+    font-family: var(--textM);
+    width: 60px;
+    height: 34px;
+    width: 75px;
+    border-radius: 5px;
+    border: none;
+}
+.button2 a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--textM);
+}
+.button1:hover{
+    cursor: pointer;
+}
+.button2:hover{
+    opacity: 0.8;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+.button2:Active{
+    opacity: 0.6;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+body{
+    background-color: black;
+    background-position: center center;
+    
+}
+main{
+    background-image: url("Assets/Images/1st Background.jpg"), linear-gradient(to bottom, rgb(0, 0, 0), grey, rgb(22, 22, 22));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    
+}
+main .box{
+    height: 80vh;
+    width: 100%;
+    
+}
