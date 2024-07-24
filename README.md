@@ -1,6 +1,6 @@
 # **Netflix Website Clone**
 
-This project is a clone of the Netflix homepage, created using HTML and CSS. It is a simple recreation aimed at learning and improving web development skills by mimicking an existing website. The project is fully responsive and mobile-friendly.
+This project is a clone of the Netflix homepage, created using HTML and CSS. It is a simple recreation aimed at learning and improving web development skills by mimicking an existing website.
 
 ## **Table of Contents**
 - [Project Description](#project-description)
@@ -12,7 +12,7 @@ This project is a clone of the Netflix homepage, created using HTML and CSS. It 
 
 ## **Project Description**
 
-The Netflix Website Clone is a static web page that resembles the homepage of Netflix. The purpose of this project is to practice and showcase HTML and CSS skills by recreating a popular and complex website interface. The project is designed to be fully responsive and mobile-friendly, ensuring a seamless experience across different devices.
+The Netflix Website Clone is a static web page that resembles the homepage of Netflix. The purpose of this project is to practice and showcase HTML and CSS skills by recreating a popular and complex website interface. 
 
 ## **Prerequisites**
 
@@ -35,7 +35,7 @@ To run this project, you will need:
 
 ## **Examples of Usage**
 
-This project can be used as a learning tool to understand how to recreate complex website designs. It serves as a practice project for aspiring web developers to enhance their HTML and CSS skills, particularly in creating responsive and mobile-friendly designs.
+This project can be used as a learning tool to understand how to recreate complex website designs. It serves as a practice project for aspiring web developers to enhance their HTML and CSS skills.
 
 ## **Contributing**
 

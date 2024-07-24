@@ -14,12 +14,12 @@
 }
 
 @media only screen and (orientation: portrait) {
-.navbar{
-    flex-direction: column;
-    
-    position: relative;
-    top: 10px;
-}
+    .navbar {
+        flex-direction: column;
+
+        position: relative;
+        top: 10px;
+    }
 }
 
 :root {
@@ -32,7 +32,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 nav {
@@ -83,7 +82,7 @@ nav {
     color: white;
     background-color: var(--netflixRed);
     font-family: var(--textM);
-    width: 60px;
+
     height: 34px;
     width: 75px;
     border-radius: 5px;
@@ -115,6 +114,7 @@ nav {
 body {
     background-color: black;
     background-position: center center;
+    z-index: -1;
 }
 
 main {
@@ -131,7 +131,7 @@ main {
     top: 0;
 }
 
-body .box {
+.box {
     position: relative;
     top: 5vh;
     height: 700px;
@@ -180,13 +180,12 @@ body .box {
 .field {
     height: 50px;
     width: 350px;
-    background-color: rgba(23,23,23,0.7);
-    border: 1px solid rgba(255,255,255,0.7);
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
     box-sizing: border-box;
     padding: 10px;
     color: white;
     border-radius: 5px;
-    
 }
 
 .started-btn {
@@ -219,13 +218,267 @@ body .box {
     opacity: 0.5;
     transition: 0.2s ease;
 }
-.started-btn > a > img {
+
+.started-btn>a>img {
     position: relative;
     left: 10px;
 }
 
-.separation{
+.separation {
     height: 8px;
-    width: 100vw;
+    width: 99vw;
     background-color: rgb(34, 34, 34);
+}
+
+.first {
+    width: 80vw;
+    display: grid;
+    align-items: center;
+    grid-template-columns: [empty] 10vw [text] 40vw [display] 40vw [empty] 10vw;
+    grid-template-rows: 175px 300px 175px;
+}
+
+.text {
+    color: white;
+    grid-column: text;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    content: wrap;
+}
+
+.firstLine {
+    font-family: var(--textB);
+    font-size: 48px;
+    padding-left: 20px;
+}
+
+.secondLine {
+    font-family: var(--textL);
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.video {
+    grid-column: display;
+    grid-row: 2/3;
+    justify-content: center;
+}
+
+.tv {
+    grid-column: display;
+    grid-row: 2/3;
+}
+
+.firstvideo {
+    position: relative;
+    bottom: 10px;
+    left: 85px;
+}
+
+.tv {
+    z-index: 1;
+}
+
+.alternate {
+    width: 80vw;
+    display: grid;
+    align-items: center;
+    grid-template-columns: [empty] 10vw [display] 40vw [text] 40vw [empty] 10vw;
+    grid-template-rows: 175px 300px 175px;
+    position: relative;
+}
+
+.alternate .text {
+    color: white;
+    grid-column: text;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    content: wrap;
+}
+
+.alternate .firstLine {
+    font-family: var(--textB);
+    font-family: var(--textB);
+    font-size: 48px;
+    padding-left: 0px;
+}
+
+.alternate .secondLine {
+    font-family: var(--textL);
+    font-size: 24px;
+    padding-left: 0px;
+}
+
+.alternate .tv {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.third {
+    width: 80vw;
+    display: grid;
+    align-items: center;
+    grid-template-columns: [empty] 10vw [text] 40vw [display] 40vw [empty] 10vw;
+    grid-template-rows: 175px 300px 150px;
+}
+
+.rajma {
+    grid-column: display;
+    grid-row: 2/3;
+    z-index: 1;
+}
+
+.thirdvideo {
+    scale: 0.8;
+    position: relative;
+    bottom: 80px;
+    left: 75px;
+}
+
+.download {
+    position: absolute;
+    background-color: black;
+    width: 350px;
+    height: 100px;
+    left: 330px;
+    bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid grey;
+    opacity: 0.9;
+}
+
+.download .stranger-img {
+    object-fit: contain;
+    height: 90%;
+    padding: 10px;
+}
+
+.downloadText {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: var(--textL);
+}
+
+.downloadText:nth-child(2) {
+    position: relative;
+    right: 35px;
+    top: 0px;
+}
+
+.blue {
+    color: rgb(0, 119, 255);
+    font-size: 15px;
+}
+
+.download-btn {
+    height: 50px;
+    padding: 10px;
+}
+
+.faq {
+    color: white;
+    background-color: black;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: var(--textB);
+    font-size: 48px;
+}
+
+.faqbox {
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    background-color: rgb(45, 45, 45);
+    padding: 24px;
+    border-radius: 2px;
+    justify-content: space-between;
+    font-family: var(--textL);
+    font-size: 24px;
+
+    margin-bottom: 8px;
+}
+
+.faqbox:hover {
+    cursor: pointer;
+    background-color: rgb(60, 60, 60);
+    transition: 0.2s ease;
+}
+
+.faqbox img {
+    filter: invert(100%);
+    scale: 1.6;
+}
+
+.lastBox .para3 {
+    margin-top: 60px;
+}
+
+.lastmail {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.footer {
+    height: 200px;
+    width: 75vw;
+    margin-left: 10vw;
+    color: rgb(185, 185, 185);
+    font-family: var(--textL);
+    font-size: 15px;
+}
+
+.footer p {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-elements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-evenly;
+    height: 175px;
+
+    row-gap: 20px;
+    column-gap: 15%;
+    margin-bottom: 20px;
+}
+
+.elements {
+    width: 150px;
+    font-size: 14px;
+    color: rgb(185, 185, 185);
+}
+
+.footer a:link {
+    color: rgb(185, 185, 185);
+}
+
+.copyright {
+    margin-top: 20px;
+    font-family: var(--textL);
+
+    padding-top: 10px;
+}
+
+.Vignesh {
+    margin-top: 20px;
+    height: 50px;
 }
