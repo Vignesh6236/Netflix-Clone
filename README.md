@@ -7,6 +7,7 @@ This project is a clone of the Netflix homepage, created using HTML and CSS. It 
 - [Prerequisites](#prerequisites)
 - [Installation and Usage](#installation-and-usage)
 - [Examples of Usage](#examples-of-usage)
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [Acknowledgments](#acknowledgments)
 
@@ -36,6 +37,23 @@ To run this project, you will need:
 ## **Examples of Usage**
 
 This project can be used as a learning tool to understand how to recreate complex website designs. It serves as a practice project for aspiring web developers to enhance their HTML and CSS skills.
+
+## **Screenshots**
+
+Here are some screenshots of the Netflix Website Clone:
+
+Screenshot 1:
+![img1](https://github.com/user-attachments/assets/0cf4c3be-4f88-49a7-a138-42fc1d311061)
+
+Screenshot 2:
+![img2](https://github.com/user-attachments/assets/97e7be28-80c6-406b-ab2e-f002f35cb45d)
+
+Screenshot 3:
+![img4](https://github.com/user-attachments/assets/fda9d5bf-6464-40ab-9119-8a45ed7c3c5a)
+
+Screenshot 4:
+![img5](https://github.com/user-attachments/assets/94f340cb-05af-478d-8032-1bc597f51d54)
+
 
 ## **Contributing**
 
